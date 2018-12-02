@@ -4,71 +4,107 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/kks3qsr.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 
-    <header>
-        <a id="verhalenwebsite" href="">
-            <h1>verhalen</h1>
-        </a>
-        <a id="wowairlogo" href=""><img id="logopaars"src="icons/wowair.svg" alt=""></a>
-        <a id="profiel" href=""></a>
-        <button id="zoek"></button>
-    </header>
+    <!-- hier heb ik div gebruikt omdat ik de header position fixed wilde geven. Ik weet niet wat ik anders kan gebruiken! -->
+    <div>
+        <header>
+            <a href="">
+                <h1>verhalen</h1>
+            </a>
+            <a href=""><img id="logopaars"src="icons/wowair.svg" alt=""></a>
+            <!-- hier heb ik span gebruikt omdat ik de (button) en de (a) samen wil groeperen. Ze zijn als een groep niet echt een section daarom heb ik span gebruikt -->
+            <span>
+        <button>zoek</button>
+        <a href=""><p>profiel</p></a></span>
+        </header>
+    </div>
 
-    <section id="intro">
-        <p>99</p>
-        <p>verhalen om mee te nemen op uw reis</p>
-    </section>
+    <main>
+        <section id="intro">
+            <p>99</p>
+            <p>verhalen om mee te nemen op uw reis</p>
+        </section>
 
-    <form action="">
-        <fieldset>
-            <legend>sorteer op</legend>
-            <label for="genre">
-            <input type="radio" name="sorteer" value="genre" id="genre"> genre</label>
-            <label for="nietgelezen">
-            <input type="radio" name="sorteer" value="niet gelezen" id="nietgelezen"> niet gelezen</label>
-            <label for="populariteit">
-            <input type="radio" name="sorteer" value="populariteit" id="populariteit"> populariteit</label>
-            <label for="verras">
-            <input type="radio" name="sorteer" value="verras" id="verras"> verras me</label>
-        </fieldset>
-    </form>
+        <form action="">
+            <fieldset>
+                <legend>Sorteer op</legend>
+                <input type="radio" name="sorteer" value="genre" id="genre">
+                <label for="genre">genre</label>
+                <input type="radio" name="sorteer" value="niet gelezen" id="nietgelezen">
+                <label for="nietgelezen">niet gelezen</label>
+                <input type="radio" name="sorteer" value="populariteit" id="populariteit">
+                <label for="populariteit">populariteit</label>
+                <input type="radio" name="sorteer" value="verras" id="verrasme">
+                <label for="verrasme">verras me</label>
+            </fieldset>
+        </form>
 
-    <section id="populariteit">
-        <h2>Populariteit</h2>
-        <article>
-            <a href=""><img id="klumperbevenimg" src="images/verdwaald-verhaal%20ontwerp2.png" alt=""></a>
-            <header>
-                <h3>Klumperbeven</h3>
-            </header>
+        <h2>Populaire verhalen</h2>
+        <section>
+            <h2>Populaire verhalen</h2>
+            <article>
+                <a href=""><img src="images/verdwaald-verhaal%20ontwerp2.png" alt=""></a>
+                <header>
+                    <h3>Klumperbeven</h3>
+                </header>
+                <footer>
+                    <ul>
+                        <li><button>like</button></li>
+                        <li>15 min</li>
+                        <li><button>download</button></li>
+                    </ul>
+                </footer>
+            </article>
 
-            <footer>
-                <ul>
-                    <li><button id="like"></button></li>
-                    <li>15 min</li>
-                    <li><button id="download"></button></li>
-                </ul>
-            </footer>
+            <article>
+                <a href=""><img src="images/verdwaald-verhaal%20ontwerp2.png" alt=""></a>
+                <header>
+                    <h3>Klumperbeven</h3>
+                </header>
+                <footer>
+                    <ul>
+                        <li><button>like</button></li>
+                        <li>15 min</li>
+                        <li><button>download</button></li>
+                    </ul>
+                </footer>
+            </article>
 
-        </article>
-    </section>
+            <article>
+                <a href=""><img src="images/verdwaald-verhaal%20ontwerp2.png" alt=""></a>
+                <header>
+                    <h3>Klumperbeven</h3>
+                </header>
+                <footer>
+                    <ul>
+                        <li><button>like</button></li>
+                        <li>15 min</li>
+                        <li><button>download</button></li>
+                    </ul>
+                </footer>
+            </article>
+
+        </section>
+    </main>
 
 
     <footer>
         <p>WOW air - Katrinartun 4 - 105 Reykjavik Kt. 451011 - 0220 - Vsknr. 109354</p>
         <p>Neem contact met ons op</p>
         <ul>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
+            <li><a href="https://www.facebook.com/wowiceland"><img id="facebook" src="icons/facebook.svg" alt=""></a></li>
+            <li><a href="https://twitter.com/wow_air"><img id="twitter" src="icons/twitter.svg" alt=""></a></li>
+            <li><a href="https://www.instagram.com/wowair/"><img id="instagram" src="icons/instagram.svg" alt=""></a></li>
+            <li><a href="https://www.pinterest.com/wowair/"><img id="pinterest" src="icons/pinterest.svg" alt=""></a></li>
+            <li><a href="https://www.youtube.com/user/WOWairTV"><img id="youtube" src="icons/youtube.svg" alt=""></a></li>
+            <li><a href="https://www.tripadvisor.com/Airline_Review-d8728919-Reviews-WOW-Air"><img id="tripadvisor" src="icons/tripadvisor.svg" alt=""></a></li>
         </ul>
-        <p><img id="logotwee" src="" alt=""></p>
-
     </footer>
 
 </body>

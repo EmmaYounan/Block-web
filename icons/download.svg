@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile-Portrait-Copy-3" transform="translate(-289.000000, -690.000000)">
+            <g id="Group" transform="translate(289.000000, 690.000000)">
+                <circle id="Oval" fill="#991782" cx="16" cy="16" r="16"></circle>
+                <polygon id="Path-5" stroke="#FFFFFF" points="17.2874167 8 14.7690063 8 14.7690063 14.6448456 12 14.6448456 15.8083564 21 20 14.6448456 17.2874167 14.6448456"></polygon>
+                <polyline id="Path-4" stroke="#FFFFFF" points="9 16 9 24 23 24 23 16"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
