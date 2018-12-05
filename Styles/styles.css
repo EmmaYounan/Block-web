@@ -6,13 +6,13 @@ body {
 }
 
 h1 {
-    font-size: 13px;
+    font-size: 0.875em;
     font-family: museo-sans, sans-serif;
     font-weight: normal;
     color: #88AFAF;
     text-transform: uppercase;
-    margin-top: 18px;
-    margin-left: 10px;
+    margin-top: 1.125em;
+    margin-left: 0.625em;
 }
 
 a {
@@ -20,15 +20,16 @@ a {
 }
 
 header a img {
-    width: 70px;
+    width: 4.375em;
 }
 
-div {
+body > div:first-child {
     position: fixed;
     background-color: white;
     width: 100%;
-    height: 90px;
+    height: 5.625em;
     z-index: 1;
+
 }
 
 header {
@@ -36,78 +37,78 @@ header {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #88AFAF;
-    height: 50px;
-    margin-bottom: 20px;
-    margin: 15px;
+    height: 3.125em;
+    margin-bottom: 1.25em;
+    margin: 0.9375em;
 }
 
 span button {
     background-image: url(../icons/zoek.svg);
-    background-size: 16px;
+    background-size: 1rem;
     background-position: top;
     background-repeat: no-repeat;
     font-family: museo-sans, sans-serif;
-    font-size: 8px;
+    font-size: 0.5em;
     text-transform: capitalize;
-    padding-top: 15px;
+    padding-top: 0.9375rem;
     color: #982682;
     background-color: white;
     border: 1px solid #982682;
-    border-radius: 4px;
-    width: 36px;
-    height: 28px;
+    border-radius: 0.25rem;
+    width: 2.25rem;
+    height: 1.75rem;
 }
 
 span a p {
     background-image: url(../icons/profiel.svg);
-    background-size: 16px;
+    background-size: 1rem;
     background-position: top;
     background-repeat: no-repeat;
     font-family: museo-sans, sans-serif;
-    font-size: 8px;
+    font-size: 0.5em;
     text-align: center;
     text-transform: capitalize;
-    padding-top: 15px;
+    padding-top: 0.9375rem;
     color: #982682;
     background-color: white;
     border: 1px solid #982682;
-    border-radius: 4px;
-    width: 36px;
-    height: 11px;
+    border-radius: 0.25rem;
+    width: 2.25rem;
+    height: 0.6875rem;
     margin: 0px;
 }
 
 header span {
     display: flex;
     justify-content: space-between;
-    width: 80px;
-    margin-top: 10px;
-    margin-right: 10px;
+    width: 5em;
+    margin-top: 0.625em;
+    margin-right: 0.625em;
 }
 
 main {
-    margin: 15px;
-    margin-top: 90px;
+    margin: 0.9375em;
+    margin-top: 5.625em;
 }
 
 section p:first-child {
     font-family: museo-sans, sans-serif;
-    font-size: 100px;
+    font-size: 6.25em;
     font-weight: bold;
-    margin-left: 15px;
-    margin-top: 80px;
+    margin-left: 0.9375rem;
+    margin-top: 5rem;
 }
 
 section p:last-child {
     font-family: museo-sans, sans-serif;
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: bold;
-    width: 174px;
-    line-height: 30px;
-    padding-bottom: 20px;
+    width: 10.875rem;
+    line-height: 1.875rem;
+    padding-bottom: 1.25rem;
     border-bottom: 3px solid #FEDF5C;
-    height: 90px;
-    margin: 90px 15px;
+    height: 5.625rem;
+    margin: 5.625rem 0.9375rem;
 }
 
 main section:first-of-type {
@@ -115,22 +116,22 @@ main section:first-of-type {
     color: white;
     display: flex;
     justify-content: space-between;
-    height: 280px;
-    margin: 5px 0px 25px 0px;
+    height: 17.5em;
+    margin: 0.3125em 0em 1.5625em 0em;
 }
 
 form fieldset {
     border: none;
-    padding-left: 0px;
-    margin-left: 10px;
-    padding-right: 0px;
+    padding-left: 0em;
+    margin-left: 0.625em;
+    padding-right: 0em;
 }
 
 form legend {
     font-family: museo-sans, sans-serif;
     color: #982682;
-    font-size: 20px;
-    margin-bottom: 5px;
+    font-size: 1.25em;
+    margin-bottom: 0.3125rem;
 }
 
 input {
@@ -140,48 +141,48 @@ input {
 
 fieldset label {
     font-family: museo-sans, sans-serif;
-    font-size: 14px;
+    font-size: 0.875em;
     color: #982682;
     text-transform: capitalize;
-    margin-left: 7px;
-    margin-right: 5px;
+    margin-left: 0.4375rem;
+    margin-right: 0.3125rem;
 }
 
 input[type=radio] + label {
     color: #982682;
-    font-size: 14px;
+    font-size: 0.875em;
 }
 
 input[type=radio]:checked + label {
     color: #2B4040;
-    font-size: 14px;
+    font-size: 0.875em;
     background-color: #FEDF5C;
-    border-radius: 10px;
-    padding: 4px;
+    border-radius: 0.625rem;
+    padding: 0.25rem;
 }
 
 main h2 {
     font-family: museo-sans, sans-serif;
     font-weight: normal;
-    font-size: 20px;
-    margin-left: 10px;
+    font-size: 1.25em;
+    margin-left: 0.625em;
     color: #982682;
 }
 
-main section h2 {
+main section h3 {
     display: none;
 }
 
 main section article {
     width: 90%;
     flex: 0 0 auto;
-    margin-right: 10px;
+    margin-right: 0.625em;
     background-color: white;
     display: flex;
     flex-direction: column;
     border: 1px solid #88AFAF;
     scroll-snap-align: center;
-    height: 335px;
+    height: 20.9375em;
 }
 
 article a img {
@@ -200,32 +201,32 @@ main section {
     scroll-snap-type: x mandatory;
     -webkit-scroll-snap-destination: 0% 0%;
     -webkit-overflow-scrolling: touch;
-    margin-bottom: 100px;
+    margin-bottom: 6.25em;
 }
 
-article header h3 {
+article header h4 {
     font-family: museo-sans, sans-serif;
-    font-size: 23px;
+    font-size: 1.4375em;
     font-weight: 300;
     color: #2B4040;
-    margin: 10px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    height: 35px;
+    margin: 0.625em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    height: 2.1875rem;
     border-bottom: 3px solid #FEDF5C;
 
 }
 
 article header {
     border-bottom: none;
-    margin: 0px;
+    margin: 0em;
 }
 
 
 main footer ul li {
     list-style: none;
     font-family: museo-sans, sans-serif;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: normal;
     color: #2B4040;
     display: inline;
@@ -234,52 +235,52 @@ main footer ul li {
 main section article footer:first-of-type ul {
     display: flex;
     justify-content: space-between;
-    padding: 0px;
-    margin: 10px;
-    margin-top: 0px;
+    padding: 0em;
+    margin: 0.625em;
+    margin-top: 0em;
 }
 
 main section article footer:first-of-type {
     background-color: white;
-    height: 45px;
+    height: 2.8125em;
 }
 
 main section article footer li {
-    padding-top: 35px;
+    padding-top: 2.1875rem;
 }
 
 main section article footer li:first-of-type {
-    padding-top: 0px;
+    padding-top: 0em;
 }
 
 main section article footer li:last-of-type {
-    padding-top: 0px;
+    padding-top: 0em;
 }
 
 main section article footer li:first-of-type button {
-    margin: 0px;
-    padding: 0px;
+    margin: 0em;
+    padding: 0em;
     background-image: url(../icons/like.svg);
-    background-size: 32px;
+    background-size: 2rem;
     background-repeat: no-repeat;
-    padding-top: 35px;
-    font-size: 12px;
+    padding-top: 2rem;
+    font-size: 0.75rem;
     color: #982682;
     background-color: transparent;
     border: none;
     text-transform: capitalize;
     background-position: top;
-    width: 39px;
+    width: 2.4375rem;
 }
 
 main section article footer li:last-of-type button {
     background-image: url(../icons/download.svg);
-    background-size: 32px;
+    background-size: 2rem;
     background-repeat: no-repeat;
-    padding-top: 35px;
+    padding-top: 2.1875rem;
     background-position: top;
-    width: 67px;
-    font-size: 12px;
+    width: 4.1875rem;
+    font-size: 0.75rem;
     color: #982682;
     background-color: transparent;
     border: none;
@@ -289,18 +290,18 @@ main section article footer li:last-of-type button {
 
 footer {
     background-color: #F4EEE8;
-    height: 200px;
+    height: 12.5em;
 }
 
 footer p {
     font-family: museo-sans, sans-serif;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 0.75em;
     color: #2B4040;
-    line-height: 20px;
-    margin: 15px;
-    margin-top: 30px;
-    width: 230px
+    line-height: 2em;
+    margin: 0.9375rem;
+    margin-top: 1.875em;
+    width: 14.375rem;
 }
 
 
@@ -308,8 +309,8 @@ footer p {
 footer ul li a img {
     background-color: #D0C9C2;
     border-radius: 50%;
-    height: 35px;
-    width: 35px;
+    height: 2.1875em;
+    width: 2.1875em;
 }
 
 footer:last-of-type ul li {
@@ -317,7 +318,7 @@ footer:last-of-type ul li {
 }
 
 footer:last-of-type ul {
-    padding-left: 15px;
+    padding-left: 0.9375em;
 }
 
 #facebook:hover {
