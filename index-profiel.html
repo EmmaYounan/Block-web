@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/kks3qsr.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="profiel">
+    <div>
+        <header>
+           <form action="">
+                <fieldset>
+                    <button></button>
+                    <legend>Zoek een leuk <i>verhaal</i></legend>
+                    <div>
+                        <input type="search" name="search" placeholder="zoek op woord of titel.." id="search">
+                        <label for="search"></label>
+                        <input type="submit" value="Zoek" id="submit">
+                         <label for="submit"></label>
+                    </div>
+                </fieldset>
+            </form>
+            <a href="index-two.html">
+                <h1>verhalen</h1>
+            </a>
+            <a href="index-two.html"><img id="logopaars"src="icons/wowair.svg" alt=""></a>
+            <!-- hier heb ik span gebruikt omdat ik de (button) en de (a) samen wil groeperen. Ze zijn als een groep niet echt een section daarom heb ik span gebruikt -->
+            <span>
+        <button>zoek</button>
+        <a href="index-profiel.html">profiel</a></span>
+        </header>
+    </div>
+
+    <form action="index-filter.html">
+        <fieldset>
+            <legend>Sorteer op</legend>
+            <div>
+                <input type="radio" name="sorteer" value="genre" id="genre">
+                <label for="genre">genre</label>
+                <input type="radio" name="sorteer" value="niet gelezen" id="nietgelezen">
+                <label for="nietgelezen">niet gelezen</label>
+                <input type="radio" name="sorteer" value="populariteit" id="populariteit" checked="checked">
+                <label for="populariteit">populariteit</label>
+                <input type="radio" name="sorteer" value="verras" id="verrasme">
+                <label for="verrasme">verras me</label>
+            </div>
+        </fieldset>
+    </form>
+
+
+  <section>
+        <h2>aanmelding</h2>
+        <form action="">
+           <fieldset>
+            <legend>verhalen account</legend>
+            <label for="usernameone">Gebruikersnaam</label>
+            <input type="text" name="username" id="usernameone">
+             <label for="passwordone">Wachtwoord</label>
+            <input type="password" name="password" id="passwordone">
+            <p><label for="remember"><input type="checkbox" name="remember" id="remember"><span></span>
+            Onthoud mijn gebruikersnaam en wachtwoord</label></p>
+            <input type="submit" value="Inloggen" id="submittwo">
+            <label for="submittwo"></label>
+            </fieldset>
+        </form>
+    </section>
+
+<section>
+        <h2>Account maken</h2>
+        <button>Account maken</button>
+        <form action="index-gelukt.html">
+           <fieldset>
+            <legend>verhalen account</legend>
+            <label for="booking">Boekingsnummer</label>
+            <input type="number">
+            <label for="usernametwo">Gebruikersnaam</label>
+            <input type="text" name="username" id="usernametwo">
+             <label for="passwordtwo">Wachtwoord</label>
+            <input type="password" name="password" id="passwordtwo">
+            <p><input type="submit" value="Sign up">
+            </p>
+            </fieldset>
+        </form>
+    </section>
+
+
+    <footer>
+        <p>WOW air - Katrinartun 4 - 105 Reykjavik Kt. 451011 - 0220 - Vsknr. 109354</p>
+        <p>Neem contact met ons op</p>
+        <ul>
+            <li><a href="https://www.facebook.com/wowiceland"><img id="facebook" src="icons/facebook.svg" alt=""></a></li>
+            <li><a href="https://twitter.com/wow_air"><img id="twitter" src="icons/twitter.svg" alt=""></a></li>
+            <li><a href="https://www.instagram.com/wowair/"><img id="instagram" src="icons/instagram.svg" alt=""></a></li>
+            <li><a href="https://www.pinterest.com/wowair/"><img id="pinterest" src="icons/pinterest.svg" alt=""></a></li>
+            <li><a href="https://www.youtube.com/user/WOWairTV"><img id="youtube" src="icons/youtube.svg" alt=""></a></li>
+            <li><a href="https://www.tripadvisor.com/Airline_Review-d8728919-Reviews-WOW-Air"><img id="tripadvisor" src="icons/tripadvisor.svg" alt=""></a></li>
+        </ul>
+    </footer>
+
+    <script src="js/script-profiel.js"></script>
+</body>
+
+</html>
