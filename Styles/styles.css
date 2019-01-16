@@ -1279,6 +1279,7 @@ svg#klumperbevenMobiel {
     left: 0;
     z-index: -1;
     width: 100%;
+    font-family: open-sans, sans-serif;
 }
 
 body.story > main > section > article footer > p:last-child {
